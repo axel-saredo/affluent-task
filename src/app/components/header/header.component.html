@@ -1,0 +1,14 @@
+<mat-toolbar class="header" color="primary" role="heading" flex>
+  <span>
+    <a id="home-button" routerLink="/">Affluent Task</a>
+  </span>
+  <span class="spacer"></span>
+  <ul>
+    <li>
+      <a mat-button (click)="navigateTo('users')">Users</a>
+    </li>
+    <li>
+      <a mat-button id="dates-button" (click)="navigateTo('dates')">Dates</a>
+    </li>
+  </ul>
+</mat-toolbar>

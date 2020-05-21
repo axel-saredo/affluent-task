@@ -1,0 +1,16 @@
+<div class="users">
+  <mat-spinner *ngIf="isLoading" class="spinner"></mat-spinner>
+  <div *ngIf="users" class="cards">
+    <mat-card *ngFor="let user of users" class="card">
+      <mat-card-title>
+        ({{user.id}}) {{user.first_name}} {{user.last_name}}
+      </mat-card-title>
+      <div class="user-avatar">
+        <img src="{{user.avatar}}" />
+      </div>
+      <p class="program-description"> 
+        {{user.email}}
+      </p>
+    </mat-card>
+  </div>
+</div>

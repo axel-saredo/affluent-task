@@ -1,0 +1,79 @@
+* {
+    font-family: 'Raleway';
+}
+
+.users:before {
+  background: white;
+  height: 90px;
+  display: block;
+  content: "";
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+.card {
+  margin-top: 10px;
+  transition: margin 0.5s ease-out;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -o-transition: margin 0.5s ease-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  margin-top: 2px;
+}
+
+.card:hover img {
+  filter: brightness(80%);
+}
+
+@media (min-width: 600px) {
+  .cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .title {
+    font-size: 80px;
+  }
+}
+
+.user-avatar {
+  width: 100%;
+}
+
+.user-avatar img {
+  filter: brightness(100%);
+  object-fit: cover;
+  width: 100%;
+  image-rendering: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: none;
+}
+
+mat-spinner {
+  margin: auto;
+}
+
+.spinner::ng-deep circle {
+  stroke: #ff4848;
+}
