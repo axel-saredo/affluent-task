@@ -1,0 +1,51 @@
+* {
+  font-family: Raleway;
+}
+
+.mat-toolbar.mat-primary {
+  background: linear-gradient(258deg, #041736, #B1F2F6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+a:hover {
+  color: #ececec;
+}
+
+a span {
+  height: fit-content;
+}
+
+#dates-button {
+  font-weight: bold;
+}
+
+#home-button {
+  color: #041736;
+  font-size: 22px;
+  font-family: 'Roboto', 'Helvetica Neue', 'sans-serif';
+  cursor: pointer;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}

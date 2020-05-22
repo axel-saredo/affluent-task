@@ -1,0 +1,19 @@
+.dates:before {
+    background: white;
+    height: 90px;
+    display: block;
+    content: "";
+}
+
+.dates {
+  margin-bottom: 5%;
+}
+
+.loading-text-container {
+  text-align: center; 
+}
+
+table {
+  width: 90%;
+  margin: auto;
+}
